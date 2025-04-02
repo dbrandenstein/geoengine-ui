@@ -29,6 +29,7 @@
         "serve:gis:nightly": "ng serve --configuration development gis --proxy-config proxy-geoengine.conf.json",
         "serve:manager:local": "npm run ng-serve-local manager",
         "serve:manager:nightly": "ng serve --configuration development manager --proxy-config proxy-geoengine.conf.json",
+        "serve:manager:prod": "ng serve --configuration development manager --proxy-config proxy-denbi_prod.conf.json",
         "build-prod:dashboards/data-atlas": "ng build --configuration production data-atlas",
         "build-prod:dashboards/ebv-analyzer": "ng build --configuration production ebv-analyzer",
         "build-prod:dashboards/ecometrics": "ng build --configuration production ecometrics",
